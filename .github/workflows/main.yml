@@ -22,7 +22,7 @@ jobs:
           pip install pylint
 
       - name: Lint code
-        run: |
+        run: 
           pylint hello.py || true
       - name: Run Code
         run: |
